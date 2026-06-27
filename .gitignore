@@ -1,12 +1,8 @@
-# Dependencies
-node_modules/
-build/
-*.apk
-*.aab
-.gradle/
-local.properties
-*.iml
-.idea/
-SocialConnect_app/android/.gradle
-SocialConnect_app/ios/Pods/
-SocialConnect_app/.dart_tool/
+# Root level ignores
+*.log
+.DS_Store
+Thumbs.db
+
+# Ignore build folders if any
+**/build/
+**/dist/
